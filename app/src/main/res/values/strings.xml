@@ -1,0 +1,138 @@
+<resources>
+
+    <string translatable="false" name="app_name">Orchestration SDK Sample</string>
+    <string translatable="false" name="welcome">Welcome</string>
+    <string translatable="false" name="welcome_subtitle">You have not yet personalized your app.\nYou need to register before you can start any orchestration operation to make your app unique so you can use it to authenticate and sign your transactions.</string>
+    <string translatable="false" name="registration">Registration</string>
+    <string translatable="false" name="prompt_user_id">User ID</string>
+    <string translatable="false" name="prompt_activation_password">Activation Password</string>
+    <string translatable="false" name="hi_user">Hi %1$s</string>
+    <string translatable="false" name="hi">Hi</string>
+    <string translatable="false" name="hi_subtitle">Currently waiting for remote notifications</string>
+    <string translatable="false" name="btn_start_activation">Start activation</string>
+    <string translatable="false" name="btn_register">Register</string>
+    <string translatable="false" name="preference_file_key">preferences</string>
+    <string translatable="false" name="pref_userIdentifier">userIdentifier</string>
+    <string translatable="false" name="pref_notificationId">notificationId</string>
+    <string translatable="false" name="want_to_sign_in">Are you trying to sign in to\n%1$s ?</string>
+    <string translatable="false" name="please_sign">Please log in</string>
+    <string translatable="false" name="want_to_sign_data">Do you want to sign these data?\n\n%1$s</string>
+    <string translatable="false" name="btn_yes">Yes please</string>
+    <string translatable="false" name="btn_no">No, thanks</string>
+
+    <string translatable="false" name="dialog_progress_remote_incoming">Handling incoming request\nPlease wait…</string>
+    <string translatable="false" name="dialog_progress_remote_auth">Handling remote authentication request\nPlease wait…</string>
+    <string translatable="false" name="dialog_progress_remote_trans">Handling remote transaction request\nPlease wait…</string>
+    <string translatable="false" name="dialog_progress_local_auth">Handling local authentication request\nPlease wait…</string>
+    <string translatable="false" name="dialog_progress_local_tran">Handling local transaction request\nPlease wait…</string>
+    <string translatable="false" name="dialog_progress_change_pwd">Handling change password request\nPlease wait…</string>
+    <string translatable="false" name="dialog_progress_activating">Activating\nPlease wait…</string>
+
+    <string translatable="false" name="dialog_title_remote_auth">Remote Authentication</string>
+    <string translatable="false" name="dialog_content_remote_auth_success_signed_in">You have just signed in.</string>
+    <string translatable="false" name="dialog_content_remote_auth_success_rejected">You have rejected the request.</string>
+    <string translatable="false" name="dialog_title_remote_session_outdated">Session outdated</string>
+    <string translatable="false" name="dialog_content_remote_session_outdated">Your session is outdated.</string>
+    <string translatable="false" name="dialog_content_remote_session_accepted">Session accepted</string>
+    <string translatable="false" name="dialog_content_remote_session_expired">Session expired</string>
+    <string translatable="false" name="dialog_content_remote_session_refused">Session refused</string>
+    <string translatable="false" name="dialog_content_remote_auth_abortion">Remote authentication aborted.</string>
+    <string translatable="false" name="dialog_title_remote_tran">Remote Transaction Validation</string>
+    <string translatable="false" name="dialog_content_remote_tran_success_validated">Transaction validated.</string>
+    <string translatable="false" name="dialog_content_remote_tran_success_rejected">Transaction rejected.</string>
+    <string translatable="false" name="dialog_content_remote_tran_abortion">Remote transaction validation aborted.</string>
+
+
+    <string translatable="false" name="dialog_title_change_password">Change PIN</string>
+    <string translatable="false" name="dialog_content_change_password_success">Your PIN has been changed.</string>
+    <string translatable="false" name="dialog_content_change_password_abortion">Change PIN aborted.</string>
+
+    <string translatable="false" name="confirm_delete_user_title">User deletion</string>
+    <string translatable="false" name="confirm_delete_user_message">Are you sure you want to delete the user</string>
+    <string translatable="false" name="confirm_delete_user_yes">Yes</string>
+    <string translatable="false" name="confirm_delete_user_no">No</string>
+
+    <string translatable="false" name="dialog_error_title">Error</string>
+    <string translatable="false" name="dialog_error_content_sending">Error while sending orchestration command.</string>
+    <string translatable="false" name="dialog_error_content_notification">Failed to register for push notifications.</string>
+
+    <string translatable="false" name="title_activity_main">Sample</string>
+
+    <string translatable="false" name="title_activity_local_authentication">Local Authentication</string>
+    <string translatable="false" name="title_activity_local_transaction">Local Transaction</string>
+    <string translatable="false" name="title_activity_remote">Remote</string>
+    <string translatable="false" name="title_activity_change_password">Change PIN</string>
+    <string translatable="false" name="title_activity_get_information">Get Information</string>
+    <string translatable="false" name="title_activity_cddc_message">CDDC Message</string>
+
+    <string translatable="false" name="label_user_identifier">User identifier</string>
+
+    <string translatable="false" name="radio_group_protection_type">Protection Type</string>
+    <string translatable="false" name="protection_type_no_password">No PIN</string>
+    <string translatable="false" name="protection_type_password">PIN</string>
+    <string translatable="false" name="protection_type_biometric">Biometric</string>
+    <string translatable="false" name="prompt_challenge">Challenge (optional)</string>
+    <string translatable="false" name="prompt_beneficiary">Beneficiary</string>
+    <string translatable="false" name="prompt_iban">IBAN</string>
+    <string translatable="false" name="prompt_amount">Amount</string>
+    <string translatable="false" name="btn_generate_opt">Generate OTP</string>
+    <string translatable="false" name="btn_sign_transaction">Sign Transaction</string>
+    <string translatable="false" name="btn_change_password">Change PIN</string>
+
+    <string translatable="false" name="error_unknown">Unknown error</string>
+    <string translatable="false" name="error_user_id_null">The user identifier is null or empty</string>
+    <string translatable="false" name="error_user_id_invalid">The user identifier contains invalid characters</string>
+    <string translatable="false" name="error_activation_password_null">The activation password is null or empty</string>
+    <string translatable="false" name="error_activation_wrong_length">The activation password has a wrong length</string>
+    <string translatable="false" name="error_activation_wrong_checksum">The activation password is not correct</string>
+    <string translatable="false" name="error_pwd_null">The PIN is null</string>
+    <string translatable="false" name="error_pwd_too_short">The PIN is too short</string>
+    <string translatable="false" name="error_pwd_too_long">The PIN is too long</string>
+    <string translatable="false" name="error_pwd_wrong">The entered PIN is wrong</string>
+    <string translatable="false" name="error_pwd_weak">The entered PIN is weak</string>
+    <string translatable="false" name="error_pwd_locked">The digipass is locked after too many wrong PIN</string>
+    <string translatable="false" name="error_command_parsing_failure">Failed to parse command</string>
+    <string translatable="false" name="error_activation">Failed to activate</string>
+    <string translatable="false" name="error_local_authentication">Failed to perform local authentication</string>
+    <string translatable="false" name="error_local_transaction">Failed to perform local transaction</string>
+    <string translatable="false" name="error_remote_authentication">Failed to perform remote authentication</string>
+    <string translatable="false" name="error_notification_registration">Failed to register for notifications</string>
+    <string translatable="false" name="error_missing_location_permission">Location permissions are missing</string>
+    <string translatable="false" name="error_missing_bluetooth_permission">Bluetooth permission is missing</string>
+    <string translatable="false" name="error_missing_wifi_permission">Wifi permission is missing</string>
+    <string translatable="false" name="error_remote_transaction">Failed to perform remote transaction</string>
+    <string translatable="false" name="error_change_password">Failed to change PIN</string>
+
+    <string translatable="false" name="warning_internal_error">Internal error</string>
+    <string translatable="false" name="warning_no_bluetooth_info">Bluetooth information not supported</string>
+    <string translatable="false" name="warning_no_bluetooth_permission">Bluetooth permission not granted</string>
+    <string translatable="false" name="warning_no_location_permission">Location permission not granted</string>
+    <string translatable="false" name="warning_no_read_phone_state_permission">Phone permission not granted</string>
+    <string translatable="false" name="warning_location_timeout">Timeout when retrieving location</string>
+    <string translatable="false" name="warning_no_location">Failed to get location</string>
+    <string translatable="false" name="warning_no_wifi_permission">Wifi permission not granted</string>
+    <string translatable="false" name="warning_unknown_error">Unknown error</string>
+
+
+    <!-- PIN pad -->
+    <string name="orch_pinpad_text_registration">Choose a PIN</string>
+    <string name="orch_pinpad_text_registration_confirm">Confirm your PIN</string>
+    <string name="orch_pinpad_text_authentication">Enter your PIN</string>
+    <string name="orch_pinpad_text_update">Choose a new PIN</string>
+    <string name="orch_pinpad_text_update_confirm">Confirm new PIN</string>
+    <string name="orch_pinpad_error_weak">The PIN is too simple. Choose a more complex PIN.</string>
+    <string name="orch_pinpad_error_confirmation">The PIN confirmation has failed. Make sure you entered the same PIN twice.</string>
+
+
+    <!-- Biometric -->
+    <string name="orch_biometric_title">Biometric Authentication</string>
+    <string name="orch_biometric_description">Please, use your biometric scanner to authenticate</string>
+    <string name="orch_biometric_failed">Authentication failed</string>
+    <string name="orch_biometric_btn_cancel">Cancel</string>
+    <string name="cddc_encrypt_label">Encrypt Message</string>
+    <string name="cddc_generate_message">Generate Message</string>
+
+    <string name="permission_description">Notification permission</string>
+    <string name="permission_label">Notification</string>
+
+</resources>

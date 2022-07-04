@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+
+    <!-- PinPad -->
+    <dimen name="orch_pin_clue_highlighted_padding">8dp</dimen>
+    <dimen name="orch_pin_clue_deactivated_padding">8dp</dimen>
+    <dimen name="orch_pin_clue_activated_padding">8dp</dimen>
+
+    <dimen name="orch_pinpad_digit_text_size">50sp</dimen>
+    <dimen name="orch_pinpad_title_text_size">25sp</dimen>
+    <dimen name="orch_pinpad_text_error_size">25sp</dimen>
+</resources>

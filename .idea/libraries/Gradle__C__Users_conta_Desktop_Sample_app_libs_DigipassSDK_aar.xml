@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: C./Users/conta/Desktop/Sample/app/libs/DigipassSDK.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/879ade7762198bd57def01cb6f9eaa66/transformed/jetified-DigipassSDK/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/879ade7762198bd57def01cb6f9eaa66/transformed/jetified-DigipassSDK/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/879ade7762198bd57def01cb6f9eaa66/transformed/jetified-DigipassSDK/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: C./Users/conta/Desktop/Sample/app/libs/orchestration-5.5.1.881.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/a331ce6a584bf2a345df2756cb7b58ec/transformed/jetified-orchestration-5.5.1.881/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a331ce6a584bf2a345df2756cb7b58ec/transformed/jetified-orchestration-5.5.1.881/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a331ce6a584bf2a345df2756cb7b58ec/transformed/jetified-orchestration-5.5.1.881/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

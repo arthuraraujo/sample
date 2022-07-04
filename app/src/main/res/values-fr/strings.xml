@@ -1,0 +1,18 @@
+<resources>
+
+    <!-- PIN pad -->
+    <string name="orch_pinpad_text_registration">Choisissez un PIN</string>
+    <string name="orch_pinpad_text_registration_confirm">Confirmez votre PIN</string>
+    <string name="orch_pinpad_text_authentication">Entrez votre PIN</string>
+    <string name="orch_pinpad_text_update">Choisissez un nouveau PIN</string>
+    <string name="orch_pinpad_text_update_confirm">Confirmez votre nouveau PIN</string>
+    <string name="orch_pinpad_error_weak">Ce PIN est trop simple. Choisissez un PIN plus complexe</string>
+    <string name="orch_pinpad_error_confirmation">La confirmation de PIN a échoué. Assurez-vous d\'entrer deux fois le même PIN</string>
+
+    <!-- Biometric -->
+    <string name="orch_biometric_title">Authentification biométrique</string>
+    <string name="orch_biometric_description">Merci d\'utiliser le scanner d\'empreinte digitale pour vous authentifier</string>
+    <string name="orch_biometric_failed">Echec de l\'authentification</string>
+    <string name="orch_biometric_btn_cancel">Annuler</string>
+
+</resources>
